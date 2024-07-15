@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">BookAdda</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>BookAdda</h1>
+           
+        </div>
+        <div class="side2">
+            <img src=
+"https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg"
+                width="500">
+        </div>
+    </div>
+<hr>
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Books</span>
+            </div>
+            <div class="boxes">
+                <div class="box" style="background: url('https://s26162.pcdn.co/wp-content/uploads/2023/09/fantasy-8094384_1280.jpg');">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           Fantasy
+                        </a>
+                    </div>
+                    <p>
+                        Fantasy is a subgenre of speculative fiction involving magical elements, as well as a work in this genre. Its roots are in oral traditions, which became fantasy literature and drama
+                    </p>
+                </div>
+                <div class="box" style="background: url('https://cdn.britannica.com/09/92009-050-122EC720/Enterprise-from-Star-Trek-III-The-Search.jpg'); background-size: contain;">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          
+
+
+Science fiction
+
+                        </a>
+                    </div>
+                    <p>
+Science fiction is a subgenre of speculative fiction, which typically deals with imaginative and futuristic concepts such as advanced science and technology, space exploration, time travel, parallel universes, and extraterrestrial life.
+                    </p>
+                </div>
+
+                <div class="box" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-pmypRWraws-vKZnmGgUgIXgXSCY4YI8hq4gMNunQk0vGQLM'); background-size: contain;">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Historical Fiction
+                        </a>
+                    </div>
+                    <p>
+                        Historical fiction is a literary genre in which a fictional plot takes place in the setting of particular real historical events
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            support@bookadda.com
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            At BookAdda, we are committed to providing you with the best possible experience. Whether you have questions, feedback, or need assistance, our team is here to help. Reach out to us using any of the methods below, and we will respond as soon as possible.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+        
+                    BookAdda
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
